@@ -237,7 +237,7 @@ padding: 5px 0px;
     color: #4C565F;
 }
 
-.komen-label:hover{
+.komen-label a:hover{
     color: #1d90cc;
 }
 .deskripsi p{
