@@ -218,9 +218,16 @@ height: 120px;
    transition: 0.3s;
 }
 
+.artikel:first-child {
+    margin-top: 0px;
+}
+
+.artikel:last-child {
+    margin-bottom: 0px;
+}
 .thumbnail-artikel{
     width: 40%;
-    height: 190px;
+    height: 220px;
     float: left;
     background-image: url(https://3.bp.blogspot.com/-n-JYfcl0Uc8/W241ozHD_pI/AAAAAAAACEQ/rbjvXbYLodkDsmA2beKZ4SeD-93d7sx4wCPcBGAYYCw/s1600/kucing.jpg);
     background-position: center;
@@ -265,7 +272,7 @@ padding: 5px 0px;
 
 .artikel{
 overflow: hidden;
-    margin: 0px 0px 20px 0px;
+    margin: 10px 10px;
     padding: 0;
     
    
