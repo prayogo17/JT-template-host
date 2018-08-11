@@ -231,8 +231,8 @@ height: 120px;
     margin-bottom: 0px;
 }
 .thumbnail-artikel{
-    width: 40%;
-    height: 220px;
+    width: 35%;
+    height: 180px;
     float: left;
     background-image: url(https://3.bp.blogspot.com/-n-JYfcl0Uc8/W241ozHD_pI/AAAAAAAACEQ/rbjvXbYLodkDsmA2beKZ4SeD-93d7sx4wCPcBGAYYCw/s1600/kucing.jpg);
     background-position: center;
@@ -241,7 +241,7 @@ height: 120px;
 }
 .deskripsi{
    
-    width: 60%;
+    width: 65%;
     float: right;
        padding: 0px 0px 0px 10px;
 }
@@ -261,7 +261,6 @@ padding: 5px 0px;
 }
 .deskripsi p{
     text-align: justify;
-    font-size: 16px;
 }
 .deskripsi h4{
     margin-top: 0px;
@@ -278,14 +277,15 @@ padding: 5px 0px;
 .artikel{
 overflow: hidden;
    margin-bottom: 10px;
-    border: 2px grey solid;
+ border: 1px #d8d8d8 solid;
     padding: 10px;
     border-radius: 10px;
-    
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
    
 }
 .artikel h4{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 .tombol-cari{
