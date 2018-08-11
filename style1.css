@@ -25,6 +25,10 @@ font-size: 18px;
     float: left;
 
 }
+
+body{
+        background-color: #dadadaad;
+}
 .share a{
     color: white;
     text-decoration :none;
@@ -186,8 +190,7 @@ height: 120px;
 #daftar-artikel{
     padding-right: 10px;
     padding-left: 0px;
-  height: 900px;
-    background-color: darkgrey;
+    min-height: 900;
 }
 #sidebar{
      height: 900px;
@@ -202,7 +205,7 @@ height: 120px;
     margin: auto;
    
     width: 90%;
-    background-color: darkgrey;
+    background-color: white;
    
     position: relative;
     z-index:700;
