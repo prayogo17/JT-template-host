@@ -27,7 +27,7 @@ font-size: 18px;
 }
 
 body{
-        background-color: #dadadaad;
+        background-color: #f2f5f9;
 }
 .share a{
     color: white;
@@ -188,17 +188,21 @@ height: 120px;
     height: 100%;
 }
 #daftar-artikel{
+    border-right: 1px solid #ddd;
     padding-right: 10px;
     padding-left: 0px;
-    min-height: 900;
+    min-height: 900px;
 }
 #sidebar{
-     height: 900px;
-    background-color: brown;
+ min-height: 900px;
+   padding-right: 0px;
+    padding-left: 10px;
 }
 
 #konten-kontainer{
    
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,.05);
     padding: 10px 24px;
     display: block;
     border-radius: 10px;
