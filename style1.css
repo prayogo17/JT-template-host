@@ -220,7 +220,7 @@ height: 120px;
 
 
 
-.artikel:last-child {
+.post-outer:last-child {
     margin-bottom: 0px;
 }
 .thumbnail-artikel{
