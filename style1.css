@@ -587,10 +587,12 @@ z-index: 990;
 
 .navigasi-scrool{
    width: 70%;
-    margin-left: 65px;
+    margin-left: 10px;
     position: relative;
+/*
    overflow-x: scroll;
    overflow-y: hidden;
+*/
    white-space:nowrap;
   
 -ms-overflow-style:none;
