@@ -623,7 +623,7 @@ display: none;
 
 .navbar-inverse {
  z-index: 1000;
-    max-height: 60px;
+    height: 60px;
     background: #1d90cc;
     background: linear-gradient(to right, #1d90cc , #29cad2);
     border: 0px;
