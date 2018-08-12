@@ -649,7 +649,7 @@ display: none;
 
 .navlist1:after {
     position: absolute;
-    bottom: -7px;
+    bottom: 0px;
     width: 14px;
     left: 50%;
     margin-left: -7px;
@@ -657,12 +657,12 @@ display: none;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-bottom: 7px solid hsla(0,0%,100%,0);
-    border-left: 7px solid hsla(0,0%,100%,0);
-    border-right: 7px solid hsla(0,0%,100%,0);
+    border-left: 7px solid #b9ddea;
+    border-right: 7px solid hsl(196, 54%, 82%);
     -webkit-transition: .2s;
     -o-transition: .2s;
+    background-color: #81a9ea;
     transition: .2s;
-  
 
 }
 
