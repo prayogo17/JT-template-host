@@ -312,7 +312,7 @@ height: 120px;
 }
 
 #navigasi{
-    max-height: 60px;
+    height: 60px;
     width: 100%;
     position: fixed;
     z-index: 1001;
@@ -692,7 +692,9 @@ display: none;
 .glyphicon-search{
     font-size: 30px;
     float: right;
-   padding: 15px;
+  position: absolute;
+    right: 20px;
+    top: 15px;
     color: #e9ecf2;
     cursor: pointer;
 }
