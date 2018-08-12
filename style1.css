@@ -1,3 +1,11 @@
+#deskripsi-footer{
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+#gambar-footer{
+    margin-bottom: 8px;
+}
 .fa {
 padding: 5px 0px;
 font-size: 18px;
@@ -14,6 +22,16 @@ font-size: 18px;
     font-weight: bold;
 }
 
+.medsos{
+    padding: 5px 0px;
+font-size: 30px;
+  width: 42px;
+
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
 
 .fa:hover {
     opacity: 1;
@@ -33,6 +51,10 @@ body{
     color: white;
     text-decoration :none;
 }
+#share1 a{
+    color: white;
+    text-decoration :none;
+}
 .fa-facebook {
      opacity: 0.9;
 transition: 0.1s;
@@ -46,6 +68,20 @@ transition: 0.1s;
   background: #55ACEE;
   color: white;
 }
+#share1 p{
+    margin-bottom: 0px;
+}
+
+#menu-footer{
+    margin-bottom: 20px;
+}
+
+.fa-instagram{
+       opacity: 0.9;
+    transition: 0.1s;
+  background: #d21ff3;
+  color: white;
+}
 
 .fa-google {
       opacity: 0.9;
@@ -54,7 +90,7 @@ transition: 0.1s;
   color: white;
 }
 
-.fa-facebook:hover,.fa-google:hover,.fa-twitter:hover{
+.fa-facebook:hover,.fa-google:hover,.fa-twitter:hover,.fa-instagram:hover{
     transform:scale(1.2)
 }
 html, body {
@@ -124,6 +160,18 @@ html, body {
   opacity:0.3;
 }
 
+.preview-gambar:after{
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+    border-radius: 10px;
+  width:100%;
+  height:100%;
+  background-color: black;
+  opacity:0.3;
+}
+
 .gambar-kecil:after{
   position: absolute;
   content:"";
@@ -156,13 +204,26 @@ html, body {
 }
 
 
-
-
+#credit-footer{
+  position: absolute;
+bottom: 10px;
+left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#footer a{
+    color:#e8e7e7;
+}
 #footer{
+   position: relative;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
     margin-top: 10px;
     width: 100%;
     height: 250px;
-    background-color: cornflowerblue;
+    padding: 30px 10px 10px 10px;
+    background-color: #2d2d2d;
 }
 
 
@@ -214,14 +275,42 @@ height: 120px;
     position: relative;
     z-index:700;
 }
+.preview-artikel h2{
+    position: absolute;
+    bottom: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+.preview-artikel{
+   cursor: pointer;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    width: 19.3%;
+    height: 200px;
+    
+    background-image: url(kucing.jpg);
+    background-position: center;
+    background-size: cover;
+    display: inline-flex;
+}
+
+.preview-artikel:hover .preview-gambar:after{
+    opacity: 0;
+}
+
 
 #preview-konten{
+    padding: 20px 150px;
         z-index: 800;
  position: absolute;
     background-color: #f2f3f4;
     width: 100%;
-    height: 440px;
-     transform: translateY(-150%);
+    height: 240px;
+     transform: translateY(-200%);
    transition: 0.3s;
 }
 
@@ -304,7 +393,7 @@ overflow: hidden;
     background-color: #81a9ea;
 border-bottom: 3px solid;
     transition: 0.3s;
-    transform: translateY(-150%);
+    transform: translateY(-200%);
       -moz-border-image: -moz-linear-gradient(left, #1d90cc , #29cad2);
   -webkit-border-image: -webkit-linear-gradient(left, #1d90cc , #29cad2);
   border-image: linear-gradient(to right, #1d90cc , #29cad2);
