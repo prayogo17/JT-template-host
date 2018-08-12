@@ -63,7 +63,7 @@ $( ".glyphicon-menu-right" ).hover(function() {
     
      $('#preview-konten').hover(function() {
        $('#preview-konten').css({"transform":"translateY(-115px)"});
-       $('.navigasi-scrool').css("overflow-x","hidden");
+     //  $('.navigasi-scrool').css("overflow-x","hidden");
     },function(){
  //   if($('#preview-konten').is(":hover")){
              $('#preview-konten').css({"transform":"translateY(-200%)"});
@@ -75,7 +75,7 @@ $( ".glyphicon-menu-right" ).hover(function() {
     
     $('.navigasi-scrool li').hover(function() {
        $('#preview-konten').css({"transform":"translateY(-115px)"});
-       $('.navigasi-scrool').css("overflow-x","hidden");
+   //    $('.navigasi-scrool').css("overflow-x","hidden");
     },function(){
  //   if($('#preview-konten').is(":hover")){
              $('#preview-konten').css({"transform":"translateY(-200%)"});
