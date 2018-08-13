@@ -13,32 +13,62 @@ $(window).resize(function(){
      counter=hitungscroll()-hitungouter();
     counter=Math.ceil(counter/5);
    
+    
+    
+    
  //   console.log(lebar);
    
-
+if($(window).width()<=1030&&!cari){
+    $('#cari').hide();
+}else if($(window).width()>=1031&&!cari){
+    $('#cari').show();
+    bukacari();
+}else{
+    $('#cari').show();
+}
       
     
 });
 
 function tutupcari(){
+     cari=false;
+    if($(window).width()<=1030){
+        $('#cari').hide();
+    }else{
     $('#penutup').hide();
-    cari=false;
+   
     $('.caritoggle').removeClass("navlist1");
     $('#cari').css({"transform":"translateY(-200%)"});
     $('.caritoggle').css('color','#e9ecf2');
 }
-$(document).on('click','.caritoggle', function(){
-    if(cari){
-        tutupcari();
-        
-    }else{
+}
+
+function bukacari(){
     cari=true;
+    if($(window).width()<=1030){
+        $('#cari').show();
+    }else{
+
     $('#penutup').show();
     $('.caritoggle').css('color','#1d90cc');
     $('.caritoggle').addClass("navlist1");
     $('#cari').css({"transform":"translateY(-22%)"});
+}
+}
+
+$(document).on('click','.caritoggle', function(){
+
+    if(cari){
+        tutupcari();
+    }else{
+        bukacari();
     }
    
+});
+
+
+$(document).on('click','#close-cari', function(){
+        tutupcari();
 });
 
 $(document).on('click','#penutup', function(){
