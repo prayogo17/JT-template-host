@@ -1,11 +1,33 @@
 @media(max-width:1030px){
-    
-    
-    
+    #close-cari{
+        display: block;
+    }
+    #formulir-cari:before {
+        width: auto;
+        top: 10px;
+        font-size: 25px;
+    }
+    #formulir-cari .form-control{
+        width: 100%;
+        border: none;
+        font-size: 17px!important;
+        height: 45px;
+    }
+    #formulir-cari{
+        margin: 0;
+        width: auto;
+    }
+    #cari{
+          transform: translateY(-140%)!important;
+            background-color: transparent;
+            z-index: 1000;
+    }
     #banner-artikel, #preview-konten{
         display: none;
     }
-    
+    #formulir-cari button{
+        display: none;
+    }
     .navbar-inverse{
         height: 30px;
         
@@ -46,8 +68,28 @@
 .navbar-nav {
     margin: 0px!important;
 }
-@media(min-width:1030px){
-    
+@media(min-width:1031px){
+    #close-cari{
+        display: none;
+    }
+     #formulir-cari:before {
+        width: 32;
+        top: 13px;
+        font-size: 32px;
+    }
+    #formulir-cari {
+     width: 600px; 
+         margin: 15px auto;
+    }
+    #formulir-cari .form-control{
+        width: 80%;
+        font-size: 20px!important;
+        height: 54px;
+        border: solid 1px #87d7e4; 
+    }
+    #formulir-cari button{
+        display: inline-block;
+    }
     .navlist:hover:after {
     bottom: 0;
     border-bottom: 7px solid #f2f3f4;
@@ -63,7 +105,10 @@
         height: 60px;
        
     }
-    
+    #cari{
+            z-index: 980;
+            background-color: #81a9ea;
+    }
     .navigasi-scrool{
    width: 70%;
     margin-left: 10px;
@@ -89,6 +134,25 @@
 
 .navbar{
     min-height: 45px;
+}
+
+#close-cari:before{
+    background-color: #747676;
+    border-radius: 10px;
+    width: 30px;
+    cursor: pointer;
+    font-family: 'Glyphicons Halflings';
+    position: absolute;
+    height: 32px;
+    right: 10px;
+    color: white;
+    top: 10px;
+    font-size: 25px;
+    line-height: 32px;
+
+    text-align: center;
+    z-index: 990;
+      content: "\e014";
 }
 
 
@@ -554,10 +618,9 @@ overflow: hidden;
 }
 #cari{
     position: relative;
-    z-index: 980;
   padding: 1px;
     font-family: sans-serif;
-    background-color: #81a9ea;
+
 border-bottom: 3px solid;
     transition: 0.3s;
     transform: translateY(-200%);
@@ -569,8 +632,6 @@ border-bottom: 3px solid;
 }
 
 #formulir-cari{
-    width: 600px;
-    margin: 15px auto;
  position: relative;
 }
 
@@ -579,13 +640,11 @@ border-bottom: 3px solid;
     border: 0px white;
     top: 3px;
     background-color: white;
-    font-size: 20px!important;
-    width: 80%;
-     border: solid 1px #87d7e4;
+  
     padding: 10px 10px 10px 50px;
     border-radius: 0px;
     margin-right: -10px;
-    height: 54px;
+
     display: inline;
     -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
     box-shadow: inset 0 0px 0px rgba(0,0,0,0); 
@@ -608,10 +667,10 @@ border-bottom: 3px solid;
     font-family: 'Glyphicons Halflings';
     position: absolute;
     height: 32px;
-    width: 32px;
+ 
     left: 10px;
-    top: 13px;
-    font-size: 32px;
+ 
+  
     line-height: 32px;
     color: #dedede;
     text-align: center;
