@@ -1,5 +1,7 @@
 @media(max-width:1030px){
     
+    
+    
     #banner-artikel, #preview-konten{
         display: none;
     }
@@ -11,6 +13,7 @@
      .glyphicon-search{
         font-size: 20px;
           transition: 0.3s;
+         right: 0px;
     }
     .navbar-brand img{
         height: 20px;
@@ -28,6 +31,7 @@
           -ms-overflow-style:none;
     display: inline-flex;
           white-space: nowrap;
+            overflow-y: hidden;
             overflow-x: scroll;
     }
     
@@ -51,6 +55,7 @@
     .glyphicon-search{
         font-size: 30px;
         transition: 0.3s;
+         right: 0px;
     }
     .navbar-inverse{
         height: 60px;
@@ -763,7 +768,7 @@ display: none;
 .glyphicon-search{
     float: right;
   position: absolute;
-    right: 20px;
+
     top: 0px;
     padding: 15px;
     color: #e9ecf2;
