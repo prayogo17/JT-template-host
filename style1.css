@@ -27,6 +27,8 @@
           top: 50px;
           -ms-overflow-style:none;
     display: inline-flex;
+          white-space: nowrap;
+            overflow-x: scroll;
     }
     
     .navlist:hover:after {
@@ -59,6 +61,7 @@
    width: 70%;
     margin-left: 10px;
     position: relative;
+    white-space: nowrap;
 /*
    overflow-x: scroll;
    overflow-y: hidden;
