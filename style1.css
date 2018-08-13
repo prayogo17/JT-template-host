@@ -1,3 +1,85 @@
+@media(max-width:1030px){
+    
+    #banner-artikel, #preview-konten{
+        display: none;
+    }
+    
+    .navbar-inverse{
+        height: 30px;
+        
+    }
+     .glyphicon-search{
+        font-size: 20px;
+          transition: 0.3s;
+    }
+    .navbar-brand img{
+        height: 20px;
+        transition: 0.3s;
+    }
+     .navlist a{
+        padding: 5px 10px!important;
+    }
+      .navigasi-scrool{
+        width: 100%;
+    background-color: #65b7d4;
+    position: absolute;
+    left: 0;
+          top: 50px;
+          -ms-overflow-style:none;
+    display: inline-flex;
+    }
+    
+    .navlist:hover:after {
+  
+     border-bottom: 0px; 
+}
+    
+}
+
+.navbar-nav {
+    margin: 0px!important;
+}
+@media(min-width:1030px){
+    
+    .navlist:hover:after {
+    bottom: 0;
+    border-bottom: 7px solid #f2f3f4;
+}
+    
+    .glyphicon-search{
+        font-size: 30px;
+        transition: 0.3s;
+    }
+    .navbar-inverse{
+        height: 60px;
+       
+    }
+    
+    .navigasi-scrool{
+   width: 70%;
+    margin-left: 10px;
+    position: relative;
+/*
+   overflow-x: scroll;
+   overflow-y: hidden;
+*/
+   white-space:nowrap;
+  
+-ms-overflow-style:none;
+    display: inline-flex;
+
+}
+    
+   
+}
+
+
+
+
+
+
+
+
 #deskripsi-footer{
     margin: auto;
     text-align: center;
@@ -585,20 +667,7 @@ z-index: 990;
     }
 }
 
-.navigasi-scrool{
-   width: 70%;
-    margin-left: 10px;
-    position: relative;
-/*
-   overflow-x: scroll;
-   overflow-y: hidden;
-*/
-   white-space:nowrap;
-  
--ms-overflow-style:none;
-    display: inline-flex;
 
-}
 
 .navigasi-scrool::-webkit-scrollbar{
 display: none;
@@ -625,7 +694,7 @@ display: none;
 
 .navbar-inverse {
  z-index: 1000;
-    height: 60px;
+  
     background: #1d90cc;
     background: linear-gradient(to right, #1d90cc , #29cad2);
     border: 0px;
@@ -686,13 +755,9 @@ display: none;
     background-color: white;
 }
 
-.navlist:hover:after {
-    bottom: 0;
-    border-bottom: 7px solid #f2f3f4;
-}
+
 
 .glyphicon-search{
-    font-size: 30px;
     float: right;
   position: absolute;
     right: 20px;
