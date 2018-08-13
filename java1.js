@@ -47,6 +47,7 @@ function bukacari(){
     cari=true;
     if($(window).width()<=1030){
         $('#cari').show();
+        $('#formulir-cari .form-control').focus();
     }else{
 
     $('#penutup').show();
