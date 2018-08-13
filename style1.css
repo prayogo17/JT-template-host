@@ -14,9 +14,10 @@
         font-size: 20px;
           transition: 0.3s;
          right: 0px;
+          padding: 10px;
     }
     .navbar-brand img{
-        height: 20px;
+        height: 13px;
         transition: 0.3s;
     }
      .navlist a{
@@ -27,7 +28,7 @@
     background-color: #65b7d4;
     position: absolute;
     left: 0;
-          top: 50px;
+          top: 40px;
           -ms-overflow-style:none;
     display: inline-flex;
           white-space: nowrap;
@@ -56,6 +57,7 @@
         font-size: 30px;
         transition: 0.3s;
          right: 0px;
+         padding: 15px;
     }
     .navbar-inverse{
         height: 60px;
@@ -85,7 +87,9 @@
 
 
 
-
+.navbar{
+    min-height: 40px;
+}
 
 
 #deskripsi-footer{
@@ -770,7 +774,7 @@ display: none;
   position: absolute;
 
     top: 0px;
-    padding: 15px;
+   
     color: #e9ecf2;
     cursor: pointer;
 }
