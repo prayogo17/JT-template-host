@@ -137,22 +137,25 @@
 }
 
 #close-cari:before{
-    background-color: #747676;
+
     border-radius: 10px;
     width: 30px;
     cursor: pointer;
     font-family: 'Glyphicons Halflings';
     position: absolute;
-    height: 32px;
+    height: 30px;
     right: 10px;
-    color: white;
-    top: 10px;
-    font-size: 25px;
-    line-height: 32px;
 
+    background-repeat: no-repeat;
+    color: white;
+    top: 11px;
+    font-size: 25px;
+    background-position: center;
+    background-size: contain;
+    background-image: url(https://2.bp.blogspot.com/--bptyBTAF0Q/W3IerKhuAvI/AAAAAAAACGU/wTWkANxXGPgDczHN7RvXm25HkPlTO41agCLcBGAs/s1600/close.png);
     text-align: center;
     z-index: 990;
-      content: "\e014";
+      content: "";
 }
 
 
