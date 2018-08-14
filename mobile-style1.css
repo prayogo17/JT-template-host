@@ -163,6 +163,7 @@
        
     }
     #cari{
+      
             z-index: 980;
             background-color: #81a9ea;
     }
@@ -542,6 +543,7 @@ overflow: hidden;
     background-color: #24b5d0;
 }
 #cari{
+      display: none;
     position: relative;
   padding: 1px;
     font-family: sans-serif;
