@@ -4,6 +4,7 @@
 #artikel-populer li{
     list-style: none;
     margin-bottom: 10px;
+    padding: 0!important;
     
 }
 #artikel-populer li:last-child{
