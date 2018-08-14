@@ -34,6 +34,22 @@
     padding: 0;
 }
 @media(max-width:1030px){
+    .deskripsi {
+    width: 70%;
+
+}
+    .artikel h4{
+    font-size: 15px;
+  
+}
+    .thumbnail-artikel{
+    width: 30%;
+    height: 100px;
+
+}
+    .deskripsi-artikel, .komen-label, .date-post, .share{
+        display: none;
+    }
     #konten-kontainer {
         width: 100%;
         border-radius: 0px;
@@ -115,6 +131,22 @@
     margin: 0px!important;
 }
 @media(min-width:1031px){
+      .deskripsi {
+    width: 65%;
+
+}
+      .artikel h4{
+    font-size: 20px;
+  
+}
+     .thumbnail-artikel{
+    width: 35%;
+    height: 180px;
+
+}
+      .deskripsi-artikel, .komen-label, .date-post, .share{
+        display: block;
+    }
      #konten-kontainer {
         width: 90%;
         border-radius: 10px;
@@ -608,8 +640,7 @@ height: 120px;
     margin-bottom: 0px;
 }
 .thumbnail-artikel{
-    width: 35%;
-    height: 180px;
+
     float: left;
     background-image: url(https://3.bp.blogspot.com/-n-JYfcl0Uc8/W241ozHD_pI/AAAAAAAACEQ/rbjvXbYLodkDsmA2beKZ4SeD-93d7sx4wCPcBGAYYCw/s1600/kucing.jpg);
     background-position: center;
@@ -618,7 +649,7 @@ height: 120px;
 }
 .deskripsi{
    
-    width: 65%;
+ 
     float: right;
        padding: 0px 0px 0px 10px;
 }
@@ -662,7 +693,6 @@ overflow: hidden;
    
 }
 .artikel h4{
-    font-size: 20px;
     font-weight: bold;
 }
 .tombol-cari{
