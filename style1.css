@@ -1,3 +1,37 @@
+#artikel-populer .item-snippet{
+    display: none;
+}
+#artikel-populer li{
+    list-style: none;
+    margin-bottom: 10px;
+    
+}
+#artikel-populer li:last-child{
+    margin-bottom: 0px;
+    
+}
+
+#artikel-populer .item-title a:hover{
+  text-decoration: none;
+    color: #1d90cc;
+}
+
+#artikel-populer .item-title a{
+  color: #4C565F;
+    font-weight: bold;
+
+}
+
+#artikel-populer .item-thumbnail{
+    float: left;
+    margin-right: 10px;
+}
+#artikel-populer .item-thumbnail img{
+   border-radius: 10px;
+}
+#artikel-populer ul{
+    padding: 0;
+}
 @media(max-width:1030px){
     #konten-kontainer {
         width: 100%;
