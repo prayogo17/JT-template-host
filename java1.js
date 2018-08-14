@@ -19,12 +19,24 @@ $(window).resize(function(){
  //   console.log(lebar);
    
 if($(window).width()<=1030&&!cari){
+   //jika ukuran kecil cari ditutup
     $('#cari').hide();
+    $('#penutup').hide();
+    $('.caritoggle').removeClass("navlist1");
+    
 }else if($(window).width()>=1031&&!cari){
-    $('#cari').show();
+     //jika ukuran besar cari ditutup
+    tutupcari();
+    
+}else if($(window).width()>=1031&&cari){
+    //jika ukuran besar cari dibuka
+    
     bukacari();
-}else{
+}else if($(window).width()<=1030&&cari){
+    //jika ukuran kecil cari dibuka
     $('#cari').show();
+     $('#penutup').hide();
+      $('.caritoggle').removeClass("navlist1");
 }
       
     
@@ -33,8 +45,9 @@ if($(window).width()<=1030&&!cari){
 function tutupcari(){
      cari=false;
     if($(window).width()<=1030){
-        $('#cari').hide();
+         $('#cari').hide();
     }else{
+    
     $('#penutup').hide();
    
     $('.caritoggle').removeClass("navlist1");
@@ -43,19 +56,22 @@ function tutupcari(){
 }
 }
 
-function bukacari(){
-    cari=true;
-    if($(window).width()<=1030){
-        $('#cari').show();
-        $('#formulir-cari .form-control').focus();
-    }else{
 
+function bukacari(){
+      cari=true;
+       if($(window).width()<=1030){
+         $('#cari').show();
+          $('#cari input').focus();
+    }else{
+  
+    $('#cari').show();
     $('#penutup').show();
+     $('#cari input').focus();
     $('.caritoggle').css('color','#1d90cc');
     $('.caritoggle').addClass("navlist1");
     $('#cari').css({"transform":"translateY(-22%)"});
-}
-}
+}}
+
 
 $(document).on('click','.caritoggle', function(){
 
