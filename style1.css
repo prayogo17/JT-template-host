@@ -1,4 +1,15 @@
 @media(max-width:1030px){
+    #konten-kontainer {
+        width: 100%;
+        border-radius: 0px;
+    }
+    #daftar-artikel {
+        border-right: 0px;
+         padding:0;
+    }
+    #iklan-atas{
+    margin: 90px auto 10px auto;
+}
     #close-cari{
         display: block;
     }
@@ -69,6 +80,18 @@
     margin: 0px!important;
 }
 @media(min-width:1031px){
+     #konten-kontainer {
+        width: 90%;
+        border-radius: 10px;
+    }
+     #daftar-artikel {
+          padding-right: 10px;
+    padding-left: 0px;
+        border-right: 0px;
+    }
+       #iklan-atas{
+   margin: 10px auto 10px auto;
+}
     #close-cari{
         display: none;
     }
@@ -467,9 +490,7 @@ left: 50%;
 height: 120px;
     background-color: brown;
     display: block;
-    margin: auto;
-      margin-top: 10px;
-    margin-bottom: 10px;
+
 }
 
 #navigasi{
@@ -483,10 +504,9 @@ height: 120px;
     height: 100%;
 }
 #daftar-artikel{
-    border-right: 1px solid #ddd;
-    padding-right: 10px;
-    padding-left: 0px;
-    min-height: 13000px;
+  
+   
+    min-height: 1300px;
 }
 #sidebar{
  min-height: 900px;
@@ -500,10 +520,9 @@ height: 120px;
     box-shadow: 0 6px 12px rgba(0,0,0,.05);
     padding: 10px 24px;
     display: block;
-    border-radius: 10px;
+  
     margin: auto;
    
-    width: 90%;
     background-color: white;
    
     position: relative;
