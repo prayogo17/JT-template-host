@@ -443,9 +443,10 @@ height: 120px;
 
 #sidebar{
 
-   padding-right: 0px;
-    padding-left: 10px;
+   padding-right: 10px!important;
+    padding-left: 10px!important;
 }
+
 
 #konten-kontainer{
    
@@ -825,4 +826,8 @@ position: absolute;
     display: block;
     margin-top: 40px;
     font-size: 16px;
+}
+#comments{
+    padding-left: 10px;
+    padding-right: 10px;
 }
