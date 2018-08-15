@@ -1,3 +1,84 @@
+/*DESAIN MODE BACA*/
+@font-face{
+    font-family: "Open Sans";
+    src: url('https://cdn.rawgit.com/prayogo17/JT-template-host/cf2862c6/OpenSans-Regular.ttf'),
+    url('https://cdn.rawgit.com/prayogo17/JT-template-host/cf2862c6/OpenSans-Regular.ttf'); /* IE */
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url('https://cdn.rawgit.com/prayogo17/JT-template-host/6a02d9f4/RobotoSlab-Regular.ttf'),
+    url('https://cdn.rawgit.com/prayogo17/JT-template-host/6a02d9f4/RobotoSlab-Regular.ttf'); /* IE */
+}
+
+#baca-post h1{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+#baca-post{
+    padding: 10px 0px 10px 10px;
+    font-size: 17px;
+padding: 10px;
+   font-family: "Open Sans"!important;
+}
+
+#date-post1{
+    font-weight: bold;
+}
+#share-bacaan{
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#share-bacaan:before{
+    content: "Bagikan Postingan";
+    font-weight: bold;
+    margin-right: 10px;
+}
+/*DESAIN MODE BACA*/
+
+
+
+#daftar-artikel{
+    border-right: 1px solid #ddd;
+}
+
+
+@media(max-width:1199px){
+      #daftar-artikel {
+        border-right: 0px;
+         padding:0;
+    }
+}
+
+@media(max-width:750px){
+     #baca-post img{
+         width: 100%!important;
+         height: auto!important;
+}
+     #baca-post a{
+     margin: 0!important;
+}
+    
+    #baca-post h1{
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+#blog-pager{
+    padding: 0px 10px;
+}
+#comments{
+    padding: 10px;
+}
+
 #artikel-populer .item-snippet{
     display: none;
 }
@@ -33,18 +114,38 @@
 #artikel-populer ul{
     padding: 0;
 }
-
 @media(max-width:1030px){
+    #footer{
+        height: 300px;
+    }
+    #daftar-artikel{
+  
+   
+    min-height: 0px;;
+}
+    .deskripsi {
+    width: 70%;
+
+}
+    .artikel h4{
+    font-size: 15px;
+  
+}
+    .thumbnail-artikel{
+    width: 30%;
+    height: 100px;
+
+}
+    .deskripsi-artikel, .komen-label, .date-post, .share{
+        display: none;
+    }
     #konten-kontainer {
         width: 100%;
         border-radius: 0px;
     }
-    #daftar-artikel {
-        border-right: 0px;
-         padding:0;
-    }
+  
     #iklan-atas{
-    margin: 90px auto 10px auto;
+    margin: 85px auto 10px auto!important;
 }
     #close-cari{
         display: block;
@@ -69,7 +170,9 @@
             background-color: transparent;
             z-index: 1000;
     }
-  
+    #banner-artikel, #preview-konten{
+        display: none;
+    }
     #formulir-cari button{
         display: none;
     }
@@ -114,6 +217,30 @@
     margin: 0px!important;
 }
 @media(min-width:1031px){
+       #footer{
+        height: 250px;
+    }
+    #daftar-artikel{
+  
+   
+    min-height: 1300px;
+}
+      .deskripsi {
+    width: 65%;
+
+}
+      .artikel h4{
+    font-size: 20px;
+  
+}
+     .thumbnail-artikel{
+    width: 35%;
+    height: 180px;
+
+}
+      .deskripsi-artikel, .komen-label, .date-post, .share{
+        display: block;
+    }
      #konten-kontainer {
         width: 90%;
         border-radius: 10px;
@@ -121,7 +248,7 @@
      #daftar-artikel {
           padding-right: 10px;
     padding-left: 0px;
-        border-right: 0px;
+
     }
        #iklan-atas{
    margin: 10px auto 10px auto;
@@ -163,7 +290,6 @@
        
     }
     #cari{
-      
             z-index: 980;
             background-color: #81a9ea;
     }
@@ -389,13 +515,112 @@ html, body {
     margin: 0;
     padding: 0;
 }
+#banner-artikel{
+   
+  cursor: pointer;
+    width: 100%;
+    height: 500px;
+    margin-top: 60px;
 
+}
 
+#banner-artikel h3{
+   letter-spacing: 1px;
+   font-family: "Roboto"!important;
+    font-weight: 700;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    margin: 0;
+}
+#banner-besar h3{
+    
+    font-size: 30px;
+    padding: 30px 20px;
+}
+#banner-besar{
 
+    position: relative;
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: green;
+ 
+    overflow: hidden;
+}
 
+#banner-besar:hover #gambar-besar{
+    transform: scale(1.1);
+}
+.banner-kecil:hover  .gambar-kecil{
+    transform: scale(1.1);
+}
 
+#gambar-besar{
+       transition: 0.5s;
+       width: 100%;
+    height: 100%;
+     background-image: url(https://3.bp.blogspot.com/-n-JYfcl0Uc8/W241ozHD_pI/AAAAAAAACEQ/rbjvXbYLodkDsmA2beKZ4SeD-93d7sx4wCPcBGAYYCw/s1600/kucing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#gambar-besar:after{
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: black;
+  opacity:0.3;
+}
 
+.preview-gambar:after{
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+    border-radius: 10px;
+  width:100%;
+  height:100%;
+  background-color: black;
+  opacity:0.3;
+}
+
+.gambar-kecil:after{
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: black;
+  opacity:0.3;
+}
+
+.banner-kecil {
+    position: relative;
+    width: 25%;
+    background-color: darkgrey;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+}
+
+.gambar-kecil{
+       transition: 0.5s;
+    width: 100%;
+    height: 100%;
+     background-image: url(https://3.bp.blogspot.com/-n-JYfcl0Uc8/W241ozHD_pI/AAAAAAAACEQ/rbjvXbYLodkDsmA2beKZ4SeD-93d7sx4wCPcBGAYYCw/s1600/kucing.jpg);
+    background-position: center;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 #credit-footer{
@@ -415,7 +640,6 @@ left: 50%;
     font-weight: bold;
     margin-top: 10px;
     width: 100%;
-    height: 300px;
     padding: 30px 10px 10px 10px;
     background-color: #2d2d2d;
 }
@@ -442,8 +666,8 @@ height: 120px;
 }
 
 #sidebar{
-
-   padding-right: 0px;
+ min-height: 900px;
+   padding-right: 10px;
     padding-left: 10px;
 }
 
@@ -461,11 +685,44 @@ height: 120px;
     position: relative;
     z-index:700;
 }
+.preview-artikel h2{
+    position: absolute;
+    bottom: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+.preview-artikel{
+   cursor: pointer;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    width: 19.3%;
+    height: 200px;
+    
+    background-image: url(kucing.jpg);
+    background-position: center;
+    background-size: cover;
+    display: inline-flex;
+}
+
+.preview-artikel:hover .preview-gambar:after{
+    opacity: 0;
+}
 
 
-
-
-
+#preview-konten{
+    padding: 20px 150px;
+        z-index: 800;
+ position: absolute;
+    background-color: #f2f3f4;
+    width: 100%;
+    height: 240px;
+     transform: translateY(-200%);
+   transition: 0.3s;
+}
 
 
 
@@ -473,8 +730,7 @@ height: 120px;
     margin-bottom: 0px;
 }
 .thumbnail-artikel{
-    width: 30%;
-    height: 100px;
+
     float: left;
     background-image: url(https://3.bp.blogspot.com/-n-JYfcl0Uc8/W241ozHD_pI/AAAAAAAACEQ/rbjvXbYLodkDsmA2beKZ4SeD-93d7sx4wCPcBGAYYCw/s1600/kucing.jpg);
     background-position: center;
@@ -483,7 +739,7 @@ height: 120px;
 }
 .deskripsi{
    
-    width: 70%;
+ 
     float: right;
        padding: 0px 0px 0px 10px;
 }
@@ -502,18 +758,10 @@ padding: 5px 0px;
     color: #1d90cc;
 }
 .deskripsi p{
-    padding: 2px 10px;
-    display: inline-block;
-    border-radius: 10px;
-    background-color: aqua;
     text-align: justify;
-    margin-bottom: 5px;
-    font-weight: bold;
-    font-style: italic;
 }
 .deskripsi h4{
-    margin: 0;
-    font-size: 15px!important;
+    margin-top: 0px;
     color: #4C565F;
 }
 
@@ -526,12 +774,15 @@ padding: 5px 0px;
 
 .artikel{
 overflow: hidden;
-   margin-bottom: 15px;
-
+   margin-bottom: 10px;
+ border: 1px #d8d8d8 solid;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
    
 }
 .artikel h4{
-    font-size: 20px;
     font-weight: bold;
 }
 .tombol-cari{
@@ -543,7 +794,6 @@ overflow: hidden;
     background-color: #24b5d0;
 }
 #cari{
-      display: none;
     position: relative;
   padding: 1px;
     font-family: sans-serif;
