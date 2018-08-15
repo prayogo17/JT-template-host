@@ -47,7 +47,7 @@ function tutupcari(){
     if($(window).width()<=1030){
          $('#cari').hide();
     }else{
-    
+     $('#cari').show();
     $('#penutup').hide();
    
     $('.caritoggle').removeClass("navlist1");
