@@ -474,8 +474,8 @@ height: 120px;
     margin-bottom: 0px;
 }
 .thumbnail-artikel{
-    width: 30%;
-    height: 100px;
+    width: 25%;
+    height: 80px;
     float: left;
     background-image: url(https://3.bp.blogspot.com/-n-JYfcl0Uc8/W241ozHD_pI/AAAAAAAACEQ/rbjvXbYLodkDsmA2beKZ4SeD-93d7sx4wCPcBGAYYCw/s1600/kucing.jpg);
     background-position: center;
@@ -484,7 +484,7 @@ height: 120px;
 }
 .deskripsi{
    
-    width: 70%;
+    width: 75%;
     float: right;
        padding: 0px 0px 0px 10px;
 }
