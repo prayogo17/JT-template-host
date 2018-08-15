@@ -28,6 +28,8 @@ padding: 10px;
 }
 #share-bacaan{
     float: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 #share-bacaan:before{
     content: "Bagikan Postingan";
@@ -49,7 +51,9 @@ padding: 10px;
 
 
 
-
+#comments{
+    padding: 10px 0px 10px 10px;
+}
 
 #artikel-populer .item-snippet{
     display: none;
