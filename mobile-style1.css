@@ -802,8 +802,20 @@ position: absolute;
 #mobile-judul-bacaan{
     font-size: 22px;
 }
-
+#date-post1{
+    font-weight: bold;
+}
+#mobile-post-bacaan .post-body{
+    font-size: 16px;
+}
 #mobile-post-bacaan img{
     width: 100%!important;
     height: auto!important;
+    max-width: 100%;
+}
+
+#mobile-share-bacaan{
+    float: none!important;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
