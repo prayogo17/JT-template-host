@@ -639,7 +639,7 @@ height: 120px;
 }
 #sidebar{
  min-height: 900px;
-   padding-right: 0px;
+   padding-right: 10px;
     padding-left: 10px;
 }
 
