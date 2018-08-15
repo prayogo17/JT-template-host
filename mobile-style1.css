@@ -502,11 +502,12 @@ padding: 5px 0px;
 .komen-label a:hover{
     color: #1d90cc;
 }
-.deskripsi p{
-    padding: 2px 10px;
+.deskripsi p {
+    padding: 0px 10px;
     display: inline-block;
-    border-radius: 10px;
-    background-color: aqua;
+    border-radius: 5px;
+    border: #ff1414 3px double;
+    background-color: white;
     text-align: justify;
     margin-bottom: 5px;
     font-weight: bold;
