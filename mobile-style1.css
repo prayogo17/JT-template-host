@@ -851,3 +851,7 @@ position: absolute;
       
         background-color: #f0f0f0;
     }
+
+#blog-pager{
+overflow:visible;
+}
