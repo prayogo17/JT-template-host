@@ -16,7 +16,23 @@
     font-weight: bold;
 }
 
-
+.comment-actions a{
+        padding: 10px;
+    background-color: #28c7d2;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.item-control a{
+        padding: 10px;
+    background-color: #fd6f6f;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
 
 #baca-post{
     padding: 10px 0px 10px 10px;
