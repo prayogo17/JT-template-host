@@ -114,7 +114,7 @@ $( ".glyphicon-menu-right" ).hover(function() {
      //  $('.navigasi-scrool').css("overflow-x","hidden");
     },function(){
  //   if($('#preview-konten').is(":hover")){
-            $('.navlist-active').removeClass('navlist-active');
+       //     $('.navlist-active').removeClass('navlist-active');
              $('#preview-konten').css({"transform":"translateY(-200%)"});
           //   $('.navigasi-scrool').css("overflow-x","scroll");
      //   }
