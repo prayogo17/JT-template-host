@@ -304,6 +304,12 @@ padding: 10px;
     border-bottom: 7px solid #f2f3f4;
 }
     
+.navlist-active:after {
+    bottom: 0!important;
+    border-bottom: 7px solid #f2f3f4!important;
+}
+    
+    
     .glyphicon-search{
         font-size: 30px;
         transition: 0.3s;
@@ -559,6 +565,7 @@ html, body {
     position: absolute;
     bottom: 0px;
     margin: 0;
+    font-size: 18px;
 }
 #banner-besar h3{
     
@@ -1073,3 +1080,20 @@ position: absolute;
    background-color: #81a9ea;
   
 }
+
+.glyphicon-home,.glyphicon-arrow-right, .glyphicon-arrow-left{
+        font-size: 20px;
+        margin: 50px;
+        padding: 15px;
+        background-color: #fcfcfc;
+        color: #a7a7a7;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px;
+    }
+    
+    .glyphicon-home:hover,.glyphicon-arrow-right:hover, .glyphicon-arrow-left:hover{
+       box-shadow: none; 
+      
+        background-color: #f0f0f0;
+    }
