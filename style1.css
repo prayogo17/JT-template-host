@@ -34,11 +34,11 @@
     margin-left: 10px;
 }
 .item-control a:hover{
-    background-color: red;
+    background-color: #e04a4a!important;
    
 }
 .comment-actions a:hover{
- background-color: blue;
+ background-color: #4dacd0;
 }
 #baca-post{
     padding: 10px 0px 10px 10px;
