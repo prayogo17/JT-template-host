@@ -853,5 +853,6 @@ position: absolute;
     }
 
 #blog-pager{
-overflow:visible;
+    overflow:visible;
+    margin-bottom:100px;
 }
