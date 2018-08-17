@@ -779,7 +779,7 @@ height: 120px;
     font-weight: bold;
     float: right;
     margin: auto;
-padding: 5px 0px;
+padding: 10px 0px 0px 0px;
 }
 
 .komen-label a{
@@ -1083,6 +1083,7 @@ position: absolute;
 
 .glyphicon-home,.glyphicon-arrow-right, .glyphicon-arrow-left{
         font-size: 20px;
+        margin: 50px;
         padding: 15px;
         background-color: #fcfcfc;
         color: #a7a7a7;
@@ -1096,6 +1097,3 @@ position: absolute;
       
         background-color: #f0f0f0;
     }
-#blog-pager{
-overflow:visible;
-}
