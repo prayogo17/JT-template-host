@@ -594,7 +594,6 @@ html, body {
        transition: 0.5s;
        width: 100%;
     height: 100%;
-     background-image: url(https://3.bp.blogspot.com/-n-JYfcl0Uc8/W241ozHD_pI/AAAAAAAACEQ/rbjvXbYLodkDsmA2beKZ4SeD-93d7sx4wCPcBGAYYCw/s1600/kucing.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -647,7 +646,7 @@ html, body {
        transition: 0.5s;
     width: 100%;
     height: 100%;
-     background-image: url(https://3.bp.blogspot.com/-n-JYfcl0Uc8/W241ozHD_pI/AAAAAAAACEQ/rbjvXbYLodkDsmA2beKZ4SeD-93d7sx4wCPcBGAYYCw/s1600/kucing.jpg);
+
     background-position: center;
    
     background-repeat: no-repeat;
@@ -733,8 +732,6 @@ height: 120px;
     border-radius: 10px;
     width: 19.3%;
     height: 200px;
-    
-    background-image: url(kucing.jpg);
     background-position: center;
     background-size: cover;
     display: inline-flex;
@@ -764,7 +761,6 @@ height: 120px;
 .thumbnail-artikel{
 
     float: left;
-    background-image: url(https://3.bp.blogspot.com/-n-JYfcl0Uc8/W241ozHD_pI/AAAAAAAACEQ/rbjvXbYLodkDsmA2beKZ4SeD-93d7sx4wCPcBGAYYCw/s1600/kucing.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -1013,7 +1009,6 @@ display: none;
     -webkit-transition: .2s;
     -o-transition: .2s;
     background-color: #81a9ea;
-    transition: .2s;
 
 }
 
@@ -1096,3 +1091,7 @@ position: absolute;
       
         background-color: #f0f0f0;
     }
+
+#blog-pager{
+    overflow: visible;
+}
