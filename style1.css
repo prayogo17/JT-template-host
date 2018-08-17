@@ -577,7 +577,7 @@ html, body {
     width: 50%;
     height: 500px;
     float: left;
-    background-color: green;
+  
  
     overflow: hidden;
 }
@@ -635,7 +635,6 @@ html, body {
 .banner-kecil {
     position: relative;
     width: 25%;
-    background-color: darkgrey;
     height: 250px;
     float: left;
     overflow: hidden;
