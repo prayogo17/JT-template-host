@@ -832,3 +832,22 @@ position: absolute;
     padding-left: 10px;
     padding-right: 10px;
 }
+
+
+    .glyphicon-home,.glyphicon-arrow-right, .glyphicon-arrow-left{
+        font-size: 12px;
+      
+        padding: 10px;
+        background-color: #fcfcfc;
+        color: #a7a7a7;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px;
+       
+    }
+    
+    .glyphicon-home:hover,.glyphicon-arrow-right:hover, .glyphicon-arrow-left:hover{
+       box-shadow: none; 
+      
+        background-color: #f0f0f0;
+    }
