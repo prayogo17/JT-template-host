@@ -1,6 +1,7 @@
 var data_artikel;
 var banner_data=[];
 var kategori=new Array();
+var aktif;
 function awal(data){
    banner(data);
     buat_kategori(data);
@@ -76,14 +77,15 @@ function tampilkan_preview(kategori_text){
 $(document).ready(function(){
   $('.navigasi-scrool li').hover(function() {
      // console.log();
+      aktif= $(this);
       $('.navlist-active').removeClass('navlist-active');
       tampilkan_preview($(this).text());
-      $(this).addClass('navlist-active');
+     aktif.addClass('navlist-active');
        $('#preview-konten').css({"transform":"translateY(-115px)"});
    //    $('.navigasi-scrool').css("overflow-x","hidden");
     },function(){
  //   if($('#preview-konten').is(":hover")){
-       // $('.navlist-active').removeClass('navlist-active');
+        $('.navlist-active').removeClass('navlist-active');
              $('#preview-konten').css({"transform":"translateY(-200%)"});
         //     $('.navigasi-scrool').css("overflow-x","scroll");
      //   }
