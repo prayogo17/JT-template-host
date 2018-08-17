@@ -109,6 +109,7 @@ $( ".glyphicon-menu-right" ).hover(function() {
     });
     
      $('#preview-konten').hover(function() {
+         aktif.addClass('navlist-active');
        $('#preview-konten').css({"transform":"translateY(-115px)"});
      //  $('.navigasi-scrool').css("overflow-x","hidden");
     },function(){
