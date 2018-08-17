@@ -17,7 +17,7 @@
 }
 
 .comment-actions a{
-        padding: 8px!important;
+        padding: 6px 80x 6px 8px!important;
     background-color: #28c7d2;
     border-radius: 10px;
     text-decoration: none!important;
@@ -25,7 +25,7 @@
     font-weight: bold;
 }
 .item-control a{
-        padding: 8px!important;
+       padding: 6px 80x 6px 8px!important;
     background-color: #fd6f6f;
     border-radius: 10px;
     text-decoration: none!important;
@@ -33,6 +33,17 @@
     font-weight: bold;
     margin-left: 10px;
 }
+
+.item-control a:hover{
+    background-color: red;
+   
+}
+
+.comment-actions a:hover{
+ background-color: blue;
+}
+
+
 
 #baca-post{
     padding: 10px 0px 10px 10px;
