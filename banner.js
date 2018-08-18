@@ -5,7 +5,7 @@ var aktif;
 function awal(data){
    banner(data);
     buat_kategori(data);
-    console.log(data);
+    
    data_artikel=data;
 }
 
@@ -38,7 +38,7 @@ catch(error) {
 
 function banner(data){
     var banyak_artikel = data.feed.entry.length;
-    console.log(banyak_artikel);
+   
     for(var t=0;t<5;++t){
         var e=Math.floor((Math.random() * 87) + 0);
         if(banner_data.indexOf(e)==-1){
@@ -46,9 +46,10 @@ function banner(data){
              if(t==0){
                  $('#gambar-besar').css('background-image','url('+besarkan(data.feed.entry[e].media$thumbnail.url,500)+')');
                   $('#banner-besar h3').text(data.feed.entry[e].title.$t);
+                  $('#banner-besar').parent().attr('href', data.feed.entry[e].link[4].href);
              }else{
                  $('#banner'+t+' .gambar-kecil' ).css('background-image','url('+besarkan(data.feed.entry[e].media$thumbnail.url,300)+')');
-                 
+                  $('#banner'+t).attr('href',data.feed.entry[e].link[4].href);
                  $('#banner'+t+' h3').text(data.feed.entry[e].title.$t);
              }
         }else{
@@ -59,7 +60,7 @@ function banner(data){
 }
 
 function tampilkan_preview(kategori_text){
-   console.log(kategori[kategori_text.toLowerCase()]);
+ 
     $('#preview-konten').empty();
     var counter=kategori[kategori_text.toLowerCase()].length;
     for(var g=0;g<counter;++g){
