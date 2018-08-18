@@ -506,12 +506,11 @@ padding: 5px 0px;
     padding: 0px 10px;
     display: inline-block;
     border-radius: 5px;
-    border: #ff1414 3px double;
+    border: #bfbfbf 3px double;
     background-color: white;
     text-align: justify;
     margin-bottom: 5px;
     font-weight: bold;
-    font-style: italic;
 }
 .deskripsi h4{
     margin: 0;
