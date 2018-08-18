@@ -1118,3 +1118,12 @@ width: 65px;
 .carousel-indicators .active {
     border: white solid 2px!important;
 }
+
+.item img{
+    width: 100%;
+
+}
+#wrap2{
+    width: 1000px;
+    height: 820px;
+}
