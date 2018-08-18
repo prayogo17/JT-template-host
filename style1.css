@@ -158,7 +158,7 @@ padding: 10px;
     width: 70%;
 
 }
-    .artikel h1{
+    .artikel h2{
     font-size: 15px;
   
 }
@@ -259,7 +259,7 @@ padding: 10px;
     width: 65%;
 
 }
-      .artikel h1{
+      .artikel h2{
     font-size: 20px;
   
 }
@@ -790,12 +790,12 @@ padding: 10px 0px 0px 0px;
 .deskripsi p{
     text-align: justify;
 }
-.deskripsi h1{
+.deskripsi h2{
     margin-top: 0px;
     color: #4C565F;
 }
 
-.deskripsi h1:hover{
+.deskripsi h2:hover{
     color: #1d90cc;
 }
 .deskripsi a{
@@ -812,7 +812,7 @@ overflow: hidden;
       box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
    
 }
-.artikel h1{
+.artikel h2{
     font-weight: bold;
 }
 .tombol-cari{
