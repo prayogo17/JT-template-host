@@ -1093,3 +1093,22 @@ position: absolute;
 #blog-pager{
     overflow: visible;
 }
+
+
+.carousel-indicators li {
+    display: inline-block;
+    width: auto!important;
+    height:auto!important;
+    margin-right: 1px!important;
+    text-indent: 0px!important;
+    cursor: pointer!important;
+    border: none!important;
+    border-radius: 0px!important;
+}
+.carousel-indicators li img {
+width: 65px;
+    height: auto;
+}
+.carousel-indicators .active {
+    border: white solid 2px!important;
+}
