@@ -1,3 +1,7 @@
+.CSS_LIGHTBOX{
+z-index:2000!important;
+}
+
 /*DESAIN MODE BACA*/
 @font-face{
     font-family: "Open Sans";
