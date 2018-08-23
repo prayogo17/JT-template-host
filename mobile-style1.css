@@ -35,6 +35,11 @@
 }
 
 @media(max-width:1030px){
+    
+    iframe{
+    width:100%;
+    
+    }
     #konten-kontainer {
         width: 100%;
         border-radius: 0px;
@@ -114,6 +119,10 @@
     margin: 0px!important;
 }
 @media(min-width:1031px){
+     iframe{
+    width:560px;
+    height:315px;
+    }
      #konten-kontainer {
         width: 90%;
         border-radius: 10px;
