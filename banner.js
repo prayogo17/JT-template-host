@@ -5,7 +5,7 @@ var aktif;
 function awal(data){
    banner(data);
     buat_kategori(data);
-    
+    artikel_samping(data);
    data_artikel=data;
 }
 
@@ -96,4 +96,34 @@ $(document).ready(function(){
 
 function besarkan(gambar, ukuran){
     return gambar.replace('s72-c', "s"+ukuran);
+}
+
+
+function artikel_samping(data){
+    let banyak_artikel=data.feed.entry.length;
+    let jumlah_artikel=15;
+    let daftar_index_artikel=new Array();
+     
+   // console.log(data);
+    for(let w=0;w<jumlah_artikel;++w){
+        let angka_random=Math.floor((Math.random() * banyak_artikel) + 0);
+    //   console.log(angka_random);
+       
+        if(daftar_index_artikel.indexOf(angka_random)===-1){
+              daftar_index_artikel.push(angka_random);
+        }else if(daftar_index_artikel.indexOf(angka_random)!==-1){
+            --w;
+        }
+    }
+    
+    
+      for(let x=0;x<daftar_index_artikel.length;++x){
+            let link   = data.feed.entry[daftar_index_artikel[x]].link[4].href;
+            let judul  = data.feed.entry[daftar_index_artikel[x]].link[4].title;
+            let gambar = data.feed.entry[daftar_index_artikel[x]].media$thumbnail.url;
+          //  console.log(gambar);
+          $("#daftar-artikel-samping").append('<li class="list-artikel"> <a href="'+link+'"><div class="gambar-list-artikel" style="background-image: url('+gambar+')"></div><h3 class="judul-list-artikel">'+judul+'</h3></a></li>')
+      }
+    
+    
 }
