@@ -357,9 +357,20 @@ function artikel_samping(data){
 
 
 $(document).ready(function(){ 
+    if($('#daftar-artikel').height()>$('#sidebar').height()){
+         $('#artikel-lain').show();
+}else if($('#daftar-artikel').height()<$('#sidebar').height()){
 
-if($('#daftar-artikel').height()>$('#sidebar').height()){
+$('#artikel-lain').hide();
+
+} 
+setInterval(function(){ 
+
+
+  if($('#daftar-artikel').height()>$('#sidebar').height()){
 $('#sidebar').css('height',$('#daftar-artikel').height()+'px');
-
 }
+
+}, 1000);
+
 });
